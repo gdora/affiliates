@@ -1,0 +1,2332 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Affiliates Manager\n"
+"POT-Creation-Date: 2018-07-23 15:42+0200\n"
+"PO-Revision-Date: 2018-07-23 15:50+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: boot-strap.php:39
+msgid "WordPress Affiliate Manager requires PHP 5.1 or higher."
+msgstr ""
+
+#: boot-strap.php:43
+msgid "WordPress Affiliate Manager requires WordPress 3.5 or higher."
+msgstr ""
+
+#: classes/ListAffiliatesTable.php:40 classes/ListPartnersTable.php:40
+#: html/admin/manage_creatives.php:176
+#: html/admin/paypalpayments/pending_payments.php:23
+msgid "View"
+msgstr "Megnéz"
+
+#: classes/ListAffiliatesTable.php:61 classes/ListClicksTable.php:55
+#: classes/ListCommissionTable.php:62 classes/ListPartnersTable.php:61
+#: source/Admin-menu/wpam-commission-menu.php:175
+msgid "Affiliate ID"
+msgstr "Ügyfél ID"
+
+#: classes/ListAffiliatesTable.php:62 classes/ListPartnersTable.php:62
+#: html/admin/creatives_detail.php:239 html/admin/manage_creatives.php:165
+#: html/admin/paypalpayments/pending_payments.php:16
+#: html/admin/paypalpayments/view_payment_detail.php:61
+#: html/transaction_table.php:47 html/transaction_table.php:62
+msgid "Status"
+msgstr "Státusz"
+
+#: classes/ListAffiliatesTable.php:63 classes/ListPartnersTable.php:63
+#: html/admin/paypalpayments/review_affiliates.php:58
+#: html/admin/paypalpayments/select_affiliates.php:129
+#: html/affiliate_cp_home.php:36 html/transaction_table.php:52
+#: html/transaction_table.php:67
+msgid "Balance"
+msgstr "Egyenleg"
+
+#: classes/ListAffiliatesTable.php:64 classes/ListPartnersTable.php:64
+msgid "Earnings"
+msgstr "Bevétel"
+
+#: classes/ListAffiliatesTable.php:65 classes/ListPartnersTable.php:65
+#: html/admin/paypalpayments/review_affiliates.php:54
+#: html/admin/paypalpayments/select_affiliates.php:125
+msgid "First Name"
+msgstr "Keresztnév"
+
+#: classes/ListAffiliatesTable.php:66 classes/ListPartnersTable.php:66
+#: html/admin/paypalpayments/review_affiliates.php:55
+#: html/admin/paypalpayments/select_affiliates.php:126
+msgid "Last Name"
+msgstr "Vezetéknév"
+
+#: classes/ListAffiliatesTable.php:67 classes/ListPartnersTable.php:67
+#: source/Plugin.php:279
+msgid "Email"
+msgstr "Email"
+
+#: classes/ListAffiliatesTable.php:68
+msgid "Partner Name"
+msgstr "Partner név"
+
+#: classes/ListAffiliatesTable.php:69 classes/ListPartnersTable.php:70
+msgid "Date Joined"
+msgstr "Csatlakozás dátuma"
+
+#: classes/ListAffiliatesTable.php:72 classes/ListPartnersTable.php:72
+msgid "View Detail"
+msgstr "Részletek"
+
+#: classes/ListAffiliatesTable.php:98 classes/ListCommissionTable.php:91
+#: classes/ListPartnersTable.php:98
+msgid "Error! You need to select multiple records to perform a bulk action!"
+msgstr "Hiba! Több rekordot kell kiválasztani tömeges változtatáshoz!"
+
+#: classes/ListAffiliatesTable.php:116 classes/ListCommissionTable.php:100
+#: classes/ListPartnersTable.php:116
+msgid "Selected records deleted successfully!"
+msgstr "A kiválasztott rekordokat törlődtek."
+
+#: classes/ListAffiliatesTable.php:140 classes/ListCommissionTable.php:116
+#: classes/ListPartnersTable.php:140
+msgid "Selected record deleted successfully!"
+msgstr "A kiválaszott rekord törlődött."
+
+#: classes/ListClicksTable.php:53 classes/ListCommissionTable.php:60
+msgid "Row ID"
+msgstr "Sor ID"
+
+#: classes/ListClicksTable.php:54 classes/ListCommissionTable.php:61
+#: source/Admin-menu/wpam-commission-menu.php:205
+msgid "Date"
+msgstr "Dátum"
+
+#: classes/ListClicksTable.php:56
+msgid "Tracking Key"
+msgstr ""
+
+#: classes/ListClicksTable.php:57
+msgid "Referring URL"
+msgstr "Hivatokozás URL"
+
+#: classes/ListClicksTable.php:58
+msgid "IP Address"
+msgstr "IP cím"
+
+#: classes/ListCommissionTable.php:63
+#: html/admin/paypalpayments/pending_payments.php:13
+#: html/admin/paypalpayments/view_payment_detail.php:20
+#: html/admin/paypalpayments/view_payment_detail.php:63
+#: html/transaction_table.php:50 html/transaction_table.php:65
+msgid "Amount"
+msgstr "Összeg"
+
+#: classes/ListCommissionTable.php:64
+#: source/Admin-menu/wpam-commission-menu.php:193
+msgid "Transaction ID"
+msgstr "Tranzakció azonosító"
+
+#: classes/ListCommissionTable.php:65
+#: source/Admin-menu/wpam-commission-menu.php:199
+msgid "Buyer Email"
+msgstr ""
+
+#: classes/ListPartnersTable.php:68
+msgid "bountyAmount"
+msgstr "Jutalék"
+
+#: classes/ListTable.php:79
+msgid "No items found."
+msgstr "Nincs találat."
+
+#: classes/ListTable.php:143
+msgid "Bulk Actions"
+msgstr "Tömeges módosítás"
+
+#: classes/ListTable.php:153 html/admin/affiliate_detail.php:283
+#: html/admin/affiliate_detail.php:314
+#: html/admin/paypalpayments/select_affiliates.php:115
+#: html/transaction_table.php:35
+msgid "Apply"
+msgstr "Ok"
+
+#: classes/ListTable.php:203
+msgid "Show all dates"
+msgstr "Összes dátum"
+
+#: classes/ListTable.php:222
+msgid "List View"
+msgstr "Lista nézet"
+
+#: classes/ListTable.php:223
+msgid "Excerpt View"
+msgstr ""
+
+#: classes/ListTable.php:239
+#, php-format
+msgid "%s pending"
+msgstr ""
+
+#: html/admin/affiliate_detail.php:141
+#, php-format
+msgid "YES, Block all applications from %s"
+msgstr ""
+
+#: html/admin/affiliate_detail.php:150
+msgid "NO, They may re-apply"
+msgstr ""
+
+#: html/admin/affiliate_detail.php:159
+msgid ""
+"Do you want to block all future applications from this email address, or "
+"allow them to sign up at a later date?"
+msgstr ""
+
+#: html/admin/affiliate_detail.php:188
+msgid "Payout"
+msgstr "Kifizetés"
+
+#: html/admin/affiliate_detail.php:219 html/admin/affiliate_detail.php:236
+#: html/admin/creative_update_form.php:82 html/admin/creatives_detail.php:114
+#: html/admin/creatives_detail.php:137 html/admin/manage_creatives.php:38
+#: html/affiliate_creative_detail.php:19
+#: source/Pages/Admin/MyAffiliatesPage.php:169
+#: source/Pages/Admin/MyPartnersPage.php:166
+#: source/Pages/Admin/NewAffiliatePage.php:93
+#: source/Pages/AffiliatesHome.php:621
+msgid "OK"
+msgstr "OK"
+
+#: html/admin/affiliate_detail.php:236 html/admin/affiliate_detail.php:279
+#: html/admin/affiliate_detail.php:310 html/admin/creatives_detail.php:83
+#: html/admin/creatives_detail.php:92 html/admin/manage_creatives.php:90
+msgid "Cancel"
+msgstr "Mégsem"
+
+#: html/admin/affiliate_detail.php:249
+msgid "Are you sure you wish to approve this affiliate?"
+msgstr "Biztos jóváhagyod ezt az ügyfelet?"
+
+#: html/admin/affiliate_detail.php:250
+msgid "Yes, approve."
+msgstr "Igen."
+
+#: html/admin/affiliate_detail.php:292
+msgid "Are you sure you wish to apply an adjustment of "
+msgstr "Biztos elküldöd az összeget"
+
+#: html/admin/affiliate_detail.php:292 html/admin/affiliate_detail.php:334
+msgid " to this account? The new balance will be "
+msgstr "ennek a felhasználónak? Az úgy egyenleg ennyi lesz: "
+
+#: html/admin/affiliate_detail.php:293 html/admin/affiliate_detail.php:335
+msgid "Yes, apply it."
+msgstr "Igen."
+
+#: html/admin/affiliate_detail.php:334
+msgid "Are you sure you wish to apply a payout of "
+msgstr "Biztos jóváhagyod a kifizetést"
+
+#: html/admin/affiliate_detail.php:369
+msgid "Are you sure you wish to decline this affiliate?"
+msgstr "Biztos elutasítod ezt az ügyfelet?"
+
+#: html/admin/affiliate_detail.php:369
+msgid "Yes, DECLINE."
+msgstr "Igen."
+
+#: html/admin/affiliate_detail.php:373
+msgid "Are you sure you wish to block this affiliate?"
+msgstr "Biztos blokkolod ezt az ügyfelet?"
+
+#: html/admin/affiliate_detail.php:373
+msgid "Yes, BLOCK."
+msgstr "Igen."
+
+#: html/admin/affiliate_detail.php:383
+msgid ""
+"Are you sure you wish to unblock this affiliate?<br>User will become "
+"DECLINED."
+msgstr "Biztos engedélyezed ezt az ügyfelet?"
+
+#: html/admin/affiliate_detail.php:383
+msgid "Yes, UNBLOCK."
+msgstr "Igen."
+
+#: html/admin/affiliate_detail.php:394
+msgid "Are you sure you wish to activate this affiliate?"
+msgstr "Biztos aktiválod ezt az ügyfelet?"
+
+#: html/admin/affiliate_detail.php:394 html/admin/creatives_detail.php:86
+msgid "Yes, ACTIVATE."
+msgstr "Igen."
+
+#: html/admin/affiliate_detail.php:398
+msgid "Are you sure you wish to deactivate this affiliate?"
+msgstr "Biztos deaktiválod ezt az ügyfelet?"
+
+#: html/admin/affiliate_detail.php:398 html/admin/creatives_detail.php:95
+msgid "Yes, DEACTIVATE."
+msgstr "Igen."
+
+#: html/admin/affiliate_detail.php:417
+msgid "Approve Application"
+msgstr "Jelentkezés jóváhagyása"
+
+#: html/admin/affiliate_detail.php:423 html/admin/affiliate_detail.php:575
+#: html/admin/settings/settings_general.php:157
+msgid "Bounty Type"
+msgstr "Jutalék típus"
+
+#: html/admin/affiliate_detail.php:427
+#: html/admin/settings/settings_general.php:161 html/contact_info.php:195
+msgid "Percentage of Sales"
+msgstr "Százalékos"
+
+#: html/admin/affiliate_detail.php:433
+#: source/Pages/Admin/MyAffiliatesPage.php:168
+#: source/Pages/Admin/MyPartnersPage.php:165
+#: source/Pages/Admin/NewAffiliatePage.php:92
+#: source/Pages/AffiliatesHome.php:620
+#, php-format
+msgid "Bounty Rate (% of Sale)"
+msgstr ""
+
+#: html/admin/affiliate_detail.php:445 html/admin/creatives_detail.php:161
+msgid "Updating, please wait ... "
+msgstr "Frissítés, kérem várjon..."
+
+#: html/admin/affiliate_detail.php:450 html/admin/creatives_detail.php:166
+msgid "Are you sure?"
+msgstr "Biztos?"
+
+#: html/admin/affiliate_detail.php:451
+msgid "approve"
+msgstr "jóváhagy"
+
+#: html/admin/affiliate_detail.php:453 html/admin/creatives_detail.php:169
+msgid "Error"
+msgstr "Hiba"
+
+#: html/admin/affiliate_detail.php:454 html/admin/creatives_detail.php:170
+#: html/admin/manage_creatives.php:109
+msgid "ERROR:"
+msgstr "HIBA:"
+
+#: html/admin/affiliate_detail.php:457
+msgid "Apply Adjustment "
+msgstr "Kiigazítás küldése"
+
+#: html/admin/affiliate_detail.php:461
+msgid "Amount "
+msgstr "Összeg"
+
+#: html/admin/affiliate_detail.php:467
+msgid "Description "
+msgstr "Leírás"
+
+#: html/admin/affiliate_detail.php:476
+msgid "Apply Payout "
+msgstr "Kifizetés küldése"
+
+#: html/admin/affiliate_detail.php:480
+msgid "Payout Amount "
+msgstr "Kifizetés összege"
+
+#: html/admin/affiliate_detail.php:483
+msgid "Current balance"
+msgstr "Jelenlegi egyenleg"
+
+#: html/admin/affiliate_detail.php:486
+msgid "Other amount"
+msgstr "Más összeg"
+
+#: html/admin/affiliate_detail.php:495
+msgid "Affiliate:"
+msgstr "Ügyfél:"
+
+#: html/admin/affiliate_detail.php:501 source/Pages/AffiliatesHome.php:38
+msgid "Overview"
+msgstr "Áttekintés"
+
+#: html/admin/affiliate_detail.php:502
+msgid "Account Finances"
+msgstr "Pénzügyek"
+
+#: html/admin/affiliate_detail.php:503
+msgid "Information"
+msgstr "Információ"
+
+#: html/admin/affiliate_detail.php:508
+msgid "Affiliate Links"
+msgstr "Partner link"
+
+#: html/admin/affiliate_detail.php:511 html/admin/affiliate_detail.php:633
+#: source/Pages/AffiliatesHome.php:47
+msgid "Impressions"
+msgstr ""
+
+#: html/admin/affiliate_detail.php:524
+msgid "Approve"
+msgstr "Jóváhagyás"
+
+#: html/admin/affiliate_detail.php:525
+msgid "Decline"
+msgstr "Elutasít"
+
+#: html/admin/affiliate_detail.php:527 html/admin/creatives_detail.php:212
+msgid "Activate"
+msgstr "Aktivál"
+
+#: html/admin/affiliate_detail.php:529
+msgid "Dectivate"
+msgstr "Deaktivál"
+
+#: html/admin/affiliate_detail.php:531
+msgid "Unblock"
+msgstr "Visszaaktivál"
+
+#: html/admin/affiliate_detail.php:533
+msgid "Block"
+msgstr "Blokkol"
+
+#: html/admin/affiliate_detail.php:539 html/admin/creative_update_form.php:131
+#: html/admin/creatives_detail.php:227 html/admin/settings/settings.php:46
+msgid "General"
+msgstr "Általános"
+
+#: html/admin/affiliate_detail.php:543
+msgid "Date Applied"
+msgstr "Dátum"
+
+#: html/admin/affiliate_detail.php:544
+msgid "Affiliate Status"
+msgstr "Ügyfél státusza"
+
+#: html/admin/affiliate_detail.php:547
+msgid "Account Standing"
+msgstr "Számla állapot"
+
+#: html/admin/affiliate_detail.php:571
+#: html/affiliate_cp_payment_details_form.php:69
+#: html/affiliate_cp_payment_details_simple.php:13 html/contact_info.php:151
+msgid "Payment Details"
+msgstr "Fizetés részletei"
+
+#: html/admin/affiliate_detail.php:576
+msgid "Bounty Amount"
+msgstr "Jutalék"
+
+#: html/admin/affiliate_detail.php:578
+msgid "Payment Method"
+msgstr "Fizetési mód"
+
+#: html/admin/affiliate_detail.php:580
+msgid "Paypal E-Mail"
+msgstr ""
+
+#: html/admin/affiliate_detail.php:582
+msgid "Make Check Out To"
+msgstr ""
+
+#: html/admin/affiliate_detail.php:597
+msgid "Broker Accounts"
+msgstr "Broker számlák"
+
+#: html/admin/affiliate_detail.php:601 html/admin/affiliate_detail.php:650
+#: html/admin/creative_update_form.php:138 html/admin/creatives_detail.php:243
+#: html/admin/manage_creatives.php:168
+#: html/admin/settings/settings_messaging.php:85 html/affiliate_cp_home.php:78
+#: html/affiliate_cp_home.php:128 html/affiliate_creative_list.php:73
+msgid "Name"
+msgstr "Név"
+
+#: html/admin/affiliate_detail.php:602 html/affiliate_cp_home.php:129
+msgid "Id"
+msgstr "Id"
+
+#: html/admin/affiliate_detail.php:603 html/admin/affiliate_detail.php:709
+#: html/admin/creative_update_form.php:155 html/admin/creatives_detail.php:247
+#: html/admin/manage_creatives.php:167
+#: html/admin/settings/settings_messaging.php:86
+#: html/admin/settings/settings_registration.php:440
+#: html/affiliate_cp_home.php:130 html/affiliate_creative_list.php:72
+#: html/transaction_table.php:45 html/transaction_table.php:60
+msgid "Type"
+msgstr "Típus"
+
+#: html/admin/affiliate_detail.php:617 html/affiliate_cp_home.php:158
+msgid "No saved broker accounts"
+msgstr "Nincs bróker számlája"
+
+#: html/admin/affiliate_detail.php:628
+msgid "Statistics"
+msgstr "Statisztika"
+
+#: html/admin/affiliate_detail.php:635
+msgid "Visits"
+msgstr "Látogatások"
+
+#: html/admin/affiliate_detail.php:636
+msgid "Purchases"
+msgstr "Vásárlások"
+
+#: html/admin/affiliate_detail.php:645
+msgid "Users"
+msgstr "Felhasználók"
+
+#: html/admin/affiliate_detail.php:651 html/affiliate_cp_home.php:79
+msgid "Income"
+msgstr "Bevétel"
+
+#: html/admin/affiliate_detail.php:683
+msgid "Balance:"
+msgstr "Egyenleg:"
+
+#: html/admin/affiliate_detail.php:686
+msgid "Earnings:"
+msgstr "Kereset:"
+
+#: html/admin/affiliate_detail.php:687
+msgid "Payments:"
+msgstr "Fizetés:"
+
+#: html/admin/affiliate_detail.php:688
+msgid "Adjustments:"
+msgstr "Kiigazítás:"
+
+#: html/admin/affiliate_detail.php:692
+msgid "Apply Payout"
+msgstr "Kifizetés"
+
+#: html/admin/affiliate_detail.php:693
+msgid "Apply Manual Adjustment"
+msgstr "Manuális kiigazítás"
+
+#: html/admin/affiliate_detail.php:708 html/admin/creative_update_form.php:108
+#: html/admin/creative_update_success.php:4 html/impressions_table.php:8
+msgid "Creative"
+msgstr ""
+
+#: html/admin/affiliate_detail.php:710
+msgid "Link"
+msgstr "Link"
+
+#: html/admin/affiliate_management_home.php:2
+msgid "Affiliate Management Control Panel"
+msgstr ""
+
+#: html/admin/affiliate_new.php:3 html/admin/affiliate_new_success.php:2
+msgid "New Affiliate"
+msgstr "Úgy ügyfél"
+
+#: html/admin/affiliate_new.php:6
+msgid ""
+"As an Affiliate Manager, if you want to create an affiliate account rather "
+"than directing someone to the normal registration form, you can do that "
+"here. Once you fill out the required contact information, your new affiliate "
+"will receive an email with their username and password.  They will "
+"automatically be approved, but will still have to log in to agree to the "
+"terms &amp; conditions and set their preferred payment method."
+msgstr "Új ügyfél vagy partner hozzáadása."
+
+#: html/admin/affiliate_new_success.php:3
+msgid "New Affiliate has been created"
+msgstr "Az új ügyfél kész"
+
+#: html/admin/affiliates_list.php:4 html/admin/partners_list.php:4
+msgid "Affiliate Details"
+msgstr "Ügyfél részletek"
+
+#: html/admin/affiliates_list.php:5 html/admin/partners_list.php:5
+msgid "Export Data"
+msgstr "Adatok exportja"
+
+#: html/admin/affiliates_list.php:8 source/Plugin.php:75
+msgid "My Affiliates"
+msgstr "Ügyfeleim"
+
+#: html/admin/affiliates_list.php:51 html/admin/partners_list.php:51
+msgid "All Active"
+msgstr "Összes aktív"
+
+#: html/admin/affiliates_list.php:52 html/admin/partners_list.php:52
+msgid "All (Including Closed)"
+msgstr "Összes"
+
+#: html/admin/affiliates_list.php:53 html/admin/partners_list.php:53
+#: source/Pages/Admin/MyCreativesPage.php:61 source/display_functions.php:166
+msgid "Active"
+msgstr "Aktív"
+
+#: html/admin/affiliates_list.php:54 html/admin/partners_list.php:54
+#: source/display_functions.php:160
+msgid "Applied"
+msgstr "Jelentkezett"
+
+#: html/admin/affiliates_list.php:55 html/admin/partners_list.php:55
+#: source/display_functions.php:164
+msgid "Approved"
+msgstr "Jóváhagyott"
+
+#: html/admin/affiliates_list.php:56 html/admin/partners_list.php:56
+#: html/affiliate_cp_payment_details_confirmed.php:2
+#: source/display_functions.php:170
+msgid "Confirmed"
+msgstr "Engedélyezett"
+
+#: html/admin/affiliates_list.php:57 html/admin/partners_list.php:57
+#: source/display_functions.php:162
+msgid "Declined"
+msgstr "Elutasított"
+
+#: html/admin/affiliates_list.php:58 html/admin/partners_list.php:58
+#: source/display_functions.php:172
+msgid "Blocked"
+msgstr "Blokkolt"
+
+#: html/admin/affiliates_list.php:59 html/admin/partners_list.php:59
+#: source/Pages/Admin/MyCreativesPage.php:62 source/display_functions.php:168
+msgid "Inactive"
+msgstr "Inaktív"
+
+#: html/admin/affiliates_list.php:122 html/admin/partners_list.php:121
+msgid "Export Affiliates Record"
+msgstr "Ügyfél rekordok exportálása"
+
+#: html/admin/affiliates_list.php:127 html/admin/partners_list.php:126
+msgid "Export to CSV"
+msgstr "Exportálás CSV-be"
+
+#: html/admin/creative_update_form.php:103
+msgid ""
+"This list contains images from the media library. If you upload a new image "
+"it is added to the media library and you can reuse images on multiple "
+"creatives by selecting it from this list. If a new image file is added, it "
+"will be uploaded and will override the currently selected media library "
+"image for this creative link. However, the old image will still remain in "
+"the media library for future use."
+msgstr ""
+
+#: html/admin/creative_update_form.php:108
+#: html/admin/creative_update_success.php:4 html/admin/creatives_detail.php:216
+msgid "Edit"
+msgstr "Módosítás"
+
+#: html/admin/creative_update_form.php:108
+#: html/admin/creative_update_success.php:4
+msgid "New"
+msgstr "Új"
+
+#: html/admin/creative_update_form.php:148 html/admin/creatives_detail.php:259
+msgid "Landing Page"
+msgstr ""
+
+#: html/admin/creative_update_form.php:175
+msgid "Image Parameters"
+msgstr "Kép paraméterek"
+
+#: html/admin/creative_update_form.php:181
+msgid "New Image File"
+msgstr "Új kép"
+
+#: html/admin/creative_update_form.php:192
+msgid "Image File from Media Library"
+msgstr "Kép a média könyvtárból"
+
+#: html/admin/creative_update_form.php:202
+msgid "Preview:"
+msgstr "Előnézet:"
+
+#: html/admin/creative_update_form.php:213
+#: html/admin/creative_update_form.php:248 html/admin/creatives_detail.php:280
+#: html/admin/creatives_detail.php:303 html/affiliate_creative_detail.php:65
+#: html/affiliate_creative_detail.php:88
+msgid "Alt Text"
+msgstr "Alt szöveg"
+
+#: html/admin/creative_update_form.php:229
+msgid "Text Link Parameters"
+msgstr "Link paraméterek"
+
+#: html/admin/creative_update_form.php:237 html/admin/creatives_detail.php:276
+#: html/affiliate_creative_detail.php:61
+msgid "Link Text"
+msgstr "Link szöveg"
+
+#: html/admin/creative_update_form.php:261
+msgid "Save Creative"
+msgstr ""
+
+#: html/admin/creative_update_success.php:9
+msgid "Creative updated."
+msgstr ""
+
+#: html/admin/creative_update_success.php:11
+msgid "New creative created.  This creative is not yet active."
+msgstr ""
+
+#: html/admin/creative_update_success.php:16
+msgid "Return to Creatives"
+msgstr ""
+
+#: html/admin/creatives_detail.php:8 html/admin/creatives_detail.php:297
+#: html/affiliate_creative_detail.php:82
+msgid "Image"
+msgstr ""
+
+#: html/admin/creatives_detail.php:9
+msgid "Text Link"
+msgstr ""
+
+#: html/admin/creatives_detail.php:10
+msgid "Unknown creative type."
+msgstr ""
+
+#: html/admin/creatives_detail.php:143
+msgid "ACTIVATE"
+msgstr ""
+
+#: html/admin/creatives_detail.php:148
+msgid "DEACTIVATE"
+msgstr ""
+
+#: html/admin/creatives_detail.php:167
+msgid "Are you sure you wish to"
+msgstr ""
+
+#: html/admin/creatives_detail.php:167
+msgid "this creative?"
+msgstr ""
+
+#: html/admin/creatives_detail.php:174 html/admin/creatives_detail.php:215
+#: html/affiliate_creative_detail.php:32 html/affiliate_creative_detail.php:45
+msgid "Preview"
+msgstr ""
+
+#: html/admin/creatives_detail.php:194 html/affiliate_creative_detail.php:43
+msgid "Creative:"
+msgstr ""
+
+#: html/admin/creatives_detail.php:206 html/admin/manage_creatives.php:163
+msgid "Actions"
+msgstr ""
+
+#: html/admin/creatives_detail.php:210
+msgid "Deactivate"
+msgstr ""
+
+#: html/admin/creatives_detail.php:234 html/admin/manage_creatives.php:164
+#: html/admin/paypalpayments/pending_payments.php:10
+#: html/admin/paypalpayments/view_payment_detail.php:57
+#: html/impressions_table.php:6 html/transaction_table.php:44
+#: html/transaction_table.php:59
+msgid "ID"
+msgstr ""
+
+#: html/admin/creatives_detail.php:271 html/affiliate_creative_detail.php:56
+msgid "Text Link Properties"
+msgstr ""
+
+#: html/admin/creatives_detail.php:292 html/affiliate_creative_detail.php:77
+msgid "Image Properties"
+msgstr ""
+
+#: html/admin/manage_creatives.php:64
+msgid "Yes, delete this creative"
+msgstr ""
+
+#: html/admin/manage_creatives.php:113
+msgid "Updating, please wait ..."
+msgstr ""
+
+#: html/admin/manage_creatives.php:120
+msgid "Delete Creative?"
+msgstr ""
+
+#: html/admin/manage_creatives.php:121
+msgid "This creative will be deleted. Are you sure?"
+msgstr ""
+
+#: html/admin/manage_creatives.php:126
+msgid "My Creatives"
+msgstr ""
+
+#: html/admin/manage_creatives.php:132
+msgid "Filter"
+msgstr ""
+
+#: html/admin/manage_creatives.php:137
+msgid "Status:"
+msgstr ""
+
+#: html/admin/manage_creatives.php:155
+msgid "Create New"
+msgstr ""
+
+#: html/admin/manage_creatives.php:166
+msgid "Created"
+msgstr ""
+
+#: html/admin/manage_creatives.php:177
+msgid "Delete"
+msgstr ""
+
+#: html/admin/partners_list.php:8 source/Plugin.php:81
+msgid "My Partners"
+msgstr "Partnereim"
+
+#: html/admin/paypalpayments/home.php:17
+msgid "New Mass Payment"
+msgstr "Tömeges fizetés"
+
+#: html/admin/paypalpayments/home.php:20
+msgid "View Previous Mass Payments"
+msgstr "A korábbi tömeges fizetések"
+
+#: html/admin/paypalpayments/not_configured.php:2
+#: html/admin/paypalpayments/pending_payments.php:3
+#: html/admin/paypalpayments/review_affiliates.php:45
+#: html/admin/paypalpayments/select_affiliates.php:102
+#: html/admin/paypalpayments/view_payment_detail.php:7
+msgid "PayPal Mass Pay"
+msgstr ""
+
+#: html/admin/paypalpayments/not_configured.php:3
+msgid "Not configured"
+msgstr ""
+
+#: html/admin/paypalpayments/not_configured.php:5
+#, php-format
+msgid ""
+"You have not configured the Affiliate Manager with your PayPal account "
+"information. You can do so in the <a href=\"%s\">Payment Settings page</a>."
+msgstr ""
+
+#: html/admin/paypalpayments/pending_payments.php:4
+msgid "View Existing Payments"
+msgstr ""
+
+#: html/admin/paypalpayments/pending_payments.php:11
+msgid "Date Posted"
+msgstr ""
+
+#: html/admin/paypalpayments/pending_payments.php:12
+msgid "PayPal ID"
+msgstr ""
+
+#: html/admin/paypalpayments/pending_payments.php:14
+#: html/admin/paypalpayments/view_payment_detail.php:21
+msgid "Fee"
+msgstr ""
+
+#: html/admin/paypalpayments/pending_payments.php:15
+msgid "Total"
+msgstr ""
+
+#: html/admin/paypalpayments/pending_payments.php:36
+msgid "(No Mass Payments on Record)"
+msgstr ""
+
+#: html/admin/paypalpayments/reconcile_file_review.php:66
+#: html/admin/paypalpayments/reconcile_manual.php:81
+msgid "Reconcile Mass Payment"
+msgstr ""
+
+#: html/admin/paypalpayments/reconcile_with_file.php:54
+msgid "Reconcile with this file"
+msgstr ""
+
+#: html/admin/paypalpayments/review_affiliates.php:10
+msgid "Yes, Submit to PayPal"
+msgstr ""
+
+#: html/admin/paypalpayments/review_affiliates.php:17
+msgid "No, Cancel"
+msgstr ""
+
+#: html/admin/paypalpayments/review_affiliates.php:39
+msgid "Submit to PayPal?"
+msgstr ""
+
+#: html/admin/paypalpayments/review_affiliates.php:40
+msgid "Are you sure you wish to submit a mass payment to PayPal?"
+msgstr ""
+
+#: html/admin/paypalpayments/review_affiliates.php:41
+#, php-format
+msgid "Your PayPal account will be charged %s!"
+msgstr ""
+
+#: html/admin/paypalpayments/review_affiliates.php:46
+msgid "Review Your Mass Payment"
+msgstr ""
+
+#: html/admin/paypalpayments/review_affiliates.php:53
+#: html/admin/paypalpayments/select_affiliates.php:124
+msgid "AID"
+msgstr ""
+
+#: html/admin/paypalpayments/review_affiliates.php:56
+#: html/admin/paypalpayments/select_affiliates.php:127
+msgid "Company"
+msgstr ""
+
+#: html/admin/paypalpayments/review_affiliates.php:57
+#: html/admin/paypalpayments/select_affiliates.php:128
+#: html/admin/paypalpayments/view_payment_detail.php:60
+msgid "PayPal E-Mail"
+msgstr ""
+
+#: html/admin/paypalpayments/review_affiliates.php:60
+msgid "Payment"
+msgstr ""
+
+#: html/admin/paypalpayments/review_affiliates.php:62
+msgid "New Balance"
+msgstr ""
+
+#: html/admin/paypalpayments/review_affiliates.php:93
+msgid "Sub-Total"
+msgstr ""
+
+#: html/admin/paypalpayments/review_affiliates.php:97
+#: html/admin/paypalpayments/select_affiliates.php:175
+#, php-format
+msgid "PayPal Fee<br /><small>2%% per payment, max %s1 per payment</small>"
+msgstr ""
+
+#: html/admin/paypalpayments/review_affiliates.php:102
+#: html/admin/paypalpayments/select_affiliates.php:180
+msgid "Estimated Total"
+msgstr ""
+
+#: html/admin/paypalpayments/review_affiliates.php:106
+msgid "Submit Mass Payment to PayPal"
+msgstr ""
+
+#: html/admin/paypalpayments/select_affiliates.php:103
+msgid "Select Affiliates to Pay"
+msgstr ""
+
+#: html/admin/paypalpayments/select_affiliates.php:106
+#, php-format
+msgid "Not showing %s affiliates that do not have a PayPal account on file."
+msgstr ""
+
+#: html/admin/paypalpayments/select_affiliates.php:110
+#: html/transaction_table.php:27
+msgid "Date Range:"
+msgstr ""
+
+#: html/admin/paypalpayments/select_affiliates.php:111
+msgid "from"
+msgstr "tól"
+
+#: html/admin/paypalpayments/select_affiliates.php:113
+#: html/transaction_table.php:31
+msgid "to"
+msgstr "ig"
+
+#: html/admin/paypalpayments/select_affiliates.php:116
+#: html/transaction_table.php:36
+msgid "Clear"
+msgstr "Töröl"
+
+#: html/admin/paypalpayments/select_affiliates.php:130
+msgid "Payment Amount"
+msgstr ""
+
+#: html/admin/paypalpayments/select_affiliates.php:185
+msgid "Continue with these payments"
+msgstr ""
+
+#: html/admin/paypalpayments/view_payment_detail.php:8
+msgid "Payment Detail"
+msgstr ""
+
+#: html/admin/paypalpayments/view_payment_detail.php:16
+msgid "Database ID"
+msgstr ""
+
+#: html/admin/paypalpayments/view_payment_detail.php:17
+#: html/admin/paypalpayments/view_payment_detail.php:58
+#: html/impressions_table.php:7 html/transaction_table.php:46
+#: html/transaction_table.php:61
+msgid "Date Occurred"
+msgstr "Dátum"
+
+#: html/admin/paypalpayments/view_payment_detail.php:18
+msgid "PayPal Timestamp"
+msgstr ""
+
+#: html/admin/paypalpayments/view_payment_detail.php:19
+msgid "PayPal Correlation ID"
+msgstr ""
+
+#: html/admin/paypalpayments/view_payment_detail.php:22
+msgid "Total Amount"
+msgstr ""
+
+#: html/admin/paypalpayments/view_payment_detail.php:26
+msgid "Reconciliation"
+msgstr ""
+
+#: html/admin/paypalpayments/view_payment_detail.php:29
+msgid "Manually reconcile payments ... "
+msgstr ""
+
+#: html/admin/paypalpayments/view_payment_detail.php:30
+msgid "Reconcile using PayPal Mass Payment results file ... "
+msgstr ""
+
+#: html/admin/paypalpayments/view_payment_detail.php:37
+msgid "Errors"
+msgstr ""
+
+#: html/admin/paypalpayments/view_payment_detail.php:40
+msgid "Code:"
+msgstr ""
+
+#: html/admin/paypalpayments/view_payment_detail.php:41
+msgid "Message:"
+msgstr ""
+
+#: html/admin/paypalpayments/view_payment_detail.php:42
+msgid "Severity:"
+msgstr ""
+
+#: html/admin/paypalpayments/view_payment_detail.php:52
+msgid "Associated Transactions"
+msgstr ""
+
+#: html/admin/paypalpayments/view_payment_detail.php:59
+#: html/contact_info.php:59
+msgid "Affiliate"
+msgstr "Ügyfél"
+
+#: html/admin/paypalpayments/view_payment_detail.php:62
+#: html/transaction_table.php:48 html/transaction_table.php:63
+msgid "Description"
+msgstr "Részletek"
+
+#: html/admin/settings/settings.php:47
+msgid "Affiliate Registration"
+msgstr "Ügyfél regisztráció"
+
+#: html/admin/settings/settings.php:48
+msgid "Messaging"
+msgstr "Üzenetek"
+
+#: html/admin/settings/settings.php:50
+msgid "Pages/Forms"
+msgstr "Oldalak/Formok"
+
+#: html/admin/settings/settings.php:51
+msgid "Advanced Settings"
+msgstr "További beállítások"
+
+#: html/admin/settings/settings.php:122
+msgid "Save Settings"
+msgstr "Beállítások mentése"
+
+#: html/admin/settings/settings_advanced.php:8
+msgid "Default Landing Page"
+msgstr ""
+
+#: html/admin/settings/settings_advanced.php:13
+#, php-format
+msgid ""
+"Your default landing page URL is <code>%s</code>. If you want to change to a "
+"different URL you can specify it here."
+msgstr ""
+
+#: html/admin/settings/settings_aff_pages.php:5
+msgid "Home Page"
+msgstr "Kezdőoldal"
+
+#: html/admin/settings/settings_aff_pages.php:10
+msgid "This is the URL of your Affiliate Home page"
+msgstr "Ez az ügyfél oldal URL-je"
+
+#: html/admin/settings/settings_aff_pages.php:16
+msgid "Registration Page"
+msgstr "Regisztráció"
+
+#: html/admin/settings/settings_aff_pages.php:21
+msgid "This is the URL of your Affiliate Registration page"
+msgstr "Ez az ügyfél regisztráció URL-je"
+
+#: html/admin/settings/settings_aff_pages.php:27
+msgid "Login Page"
+msgstr "Bejelentkezés"
+
+#: html/admin/settings/settings_aff_pages.php:32
+msgid "This is the URL of your Affiliate Login page"
+msgstr "Ügyfél bejelentkezés URL-je"
+
+#: html/admin/settings/settings_aff_pages.php:38
+msgid "Terms and Conditions Page"
+msgstr "Felhasználási feltételek"
+
+#: html/admin/settings/settings_aff_pages.php:43
+msgid "This is the URL of your Terms and Conditions page"
+msgstr "A felhasználási feltételek URL-je"
+
+#: html/admin/settings/settings_general.php:103
+msgid "Minimum Payout Amount"
+msgstr "Kifizetés minimális összege"
+
+#: html/admin/settings/settings_general.php:112
+msgid "Cookie Duration (days)"
+msgstr "Sütik lejárata"
+
+#: html/admin/settings/settings_general.php:117
+#, php-format
+msgid "<a target=\"_blank\" href=\"%s\">Read more on cookie duration here</a>"
+msgstr ""
+
+#: html/admin/settings/settings_general.php:122
+msgid "Email name"
+msgstr "Email név"
+
+#: html/admin/settings/settings_general.php:127
+#: html/admin/settings/settings_general.php:137
+msgid "(Leave blank to use WordPress default)"
+msgstr "(Hagyd üresen a WordPress alapértelmezetthez)"
+
+#: html/admin/settings/settings_general.php:132
+msgid "Email address"
+msgstr "Email cím"
+
+#: html/admin/settings/settings_general.php:144
+msgid "Automatically approve a new affiliate"
+msgstr "Ügyfelek automatikus jóváhagyása"
+
+#: html/admin/settings/settings_general.php:168
+#, php-format
+msgid "Bounty Rate (% of Sale) / Amount"
+msgstr ""
+
+#: html/admin/settings/settings_general.php:177
+msgid "Currency Symbol"
+msgstr "Pénznem szimbólum"
+
+#: html/admin/settings/settings_general.php:186
+msgid "Currency Code"
+msgstr "Pénznem kód"
+
+#: html/admin/settings/settings_general.php:196
+msgid "Do Not Record Zero Amount Commission"
+msgstr "Ne rögzítsen 0 összegű megbízást"
+
+#: html/admin/settings/settings_general.php:210
+msgid "Send Commission Notification"
+msgstr "Megbízás emlékeztető küldése"
+
+#: html/admin/settings/settings_general.php:217
+msgid ""
+"If checked, your affiliates will get notified via email when they receive a "
+"commission."
+msgstr ""
+"Ha ki van pipálva akkor az ügyfelek értesítő email-t kapnak megbízás esetén."
+
+#: html/admin/settings/settings_general.php:223
+msgid "Enable Impressions"
+msgstr ""
+
+#: html/admin/settings/settings_general.php:232
+msgid "Enable Debug"
+msgstr ""
+
+#: html/admin/settings/settings_general.php:235
+msgid ""
+"If checked, debug output will be written to log files. This is useful for "
+"troubleshooting post payment failures."
+msgstr ""
+
+#: html/admin/settings/settings_general.php:236
+msgid ""
+"You can check the debug log file by clicking on the link below (The log file "
+"can be viewed using any text editor):"
+msgstr ""
+
+#: html/admin/settings/settings_general.php:240
+msgid "Reset Debug Log file"
+msgstr ""
+
+#: html/admin/settings/settings_general.php:241
+msgid "Use it to reset the affiliate manager plugin's log file."
+msgstr ""
+
+#: html/admin/settings/settings_messaging.php:66
+msgid ""
+"These settings allow you to control text that is displayed to affiliates at "
+"various points in the affiliate plug-in, as well as e-mails that are sent."
+msgstr ""
+
+#: html/admin/settings/settings_messaging.php:71
+msgid "Use:"
+msgstr ""
+
+#: html/admin/settings/settings_messaging.php:75
+msgid "Content:"
+msgstr ""
+
+#: html/admin/settings/settings_messaging.php:87
+msgid "Use"
+msgstr ""
+
+#: html/admin/settings/settings_messaging.php:88
+msgid "Content"
+msgstr ""
+
+#: html/admin/settings/settings_messaging.php:118
+#, php-format
+msgid "%s(More)"
+msgstr ""
+
+#: html/admin/settings/settings_messaging.php:125
+msgid ""
+"* Some messages have been modified. These will <strong>NOT</strong> be saved "
+"to the database until you click 'Save Settings' button below."
+msgstr ""
+
+#: html/admin/settings/settings_payment.php:16
+msgid ""
+"Looking for help? Check out the bundled step-by-step guide for setting up "
+"PayPal Mass Pay:"
+msgstr ""
+
+#: html/admin/settings/settings_payment.php:20
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">How to Setup PayPal Mass Pay</a> (PDF)"
+msgstr ""
+
+#: html/admin/settings/settings_payment.php:29
+msgid ""
+"Enable PayPal Mass Pay &#0153;<br /><small>NOTE: Requires a PayPal Premier "
+"or PayPal Business account</small>"
+msgstr ""
+
+#: html/admin/settings/settings_payment.php:32
+msgid "PayPal API Configuration"
+msgstr ""
+
+#: html/admin/settings/settings_payment.php:35
+msgid "API Username"
+msgstr ""
+
+#: html/admin/settings/settings_payment.php:39
+msgid "API Password"
+msgstr ""
+
+#: html/admin/settings/settings_payment.php:43
+msgid "Signature"
+msgstr ""
+
+#: html/admin/settings/settings_payment.php:47
+msgid "API End Point"
+msgstr ""
+
+#: html/admin/settings/settings_payment.php:47
+msgid "WARNING: Set to LIVE if you don't know what this is for!"
+msgstr ""
+
+#: html/admin/settings/settings_payment.php:50
+#, php-format
+msgid "Live (%s)"
+msgstr ""
+
+#: html/admin/settings/settings_payment.php:51
+#, php-format
+msgid "Sandbox - TESTING (%s)"
+msgstr ""
+
+#: html/admin/settings/settings_registration.php:218
+msgid "Display name is required."
+msgstr ""
+
+#: html/admin/settings/settings_registration.php:225
+msgid "Field name is required."
+msgstr ""
+
+#: html/admin/settings/settings_registration.php:228
+msgid ""
+"Field name may only contains letters, numbers, underscores and hyphens, and "
+"must begin with a letter."
+msgstr ""
+
+#: html/admin/settings/settings_registration.php:235
+msgid "This field name is already in use."
+msgstr ""
+
+#: html/admin/settings/settings_registration.php:247
+msgid "Field length must be an non-0 positive number."
+msgstr ""
+
+#: html/admin/settings/settings_registration.php:361
+msgid "Custom Field"
+msgstr "Kiegészítő mező"
+
+#: html/admin/settings/settings_registration.php:368
+#: html/admin/settings/settings_registration.php:442
+msgid "Display Name"
+msgstr ""
+
+#: html/admin/settings/settings_registration.php:375
+#: html/admin/settings/settings_registration.php:443
+msgid "Field Name"
+msgstr ""
+
+#: html/admin/settings/settings_registration.php:382
+msgid "Field Type"
+msgstr ""
+
+#: html/admin/settings/settings_registration.php:385
+msgid "Text"
+msgstr ""
+
+#: html/admin/settings/settings_registration.php:386
+msgid "Number"
+msgstr ""
+
+#: html/admin/settings/settings_registration.php:387
+msgid "E-Mail Address"
+msgstr "E-mail cím"
+
+#: html/admin/settings/settings_registration.php:388
+msgid "Phone Number"
+msgstr "Telefonszám"
+
+#: html/admin/settings/settings_registration.php:389
+msgid "State Code (US)"
+msgstr "Megye kód"
+
+#: html/admin/settings/settings_registration.php:390
+msgid "Zip Code (US)"
+msgstr "Irányítószám"
+
+#: html/admin/settings/settings_registration.php:391
+msgid "Country Code"
+msgstr "Ország kód"
+
+#: html/admin/settings/settings_registration.php:392
+msgid "Social Security Number (US)"
+msgstr ""
+
+#: html/admin/settings/settings_registration.php:399
+#: html/admin/settings/settings_registration.php:444
+msgid "Max Length"
+msgstr ""
+
+#: html/admin/settings/settings_registration.php:412
+msgid "Available Payout Methods"
+msgstr ""
+
+#: html/admin/settings/settings_registration.php:418
+#: source/Data/Models/AffiliateModel.php:183
+msgid "Check"
+msgstr ""
+
+#: html/admin/settings/settings_registration.php:422
+#: source/Data/Models/AffiliateModel.php:179
+msgid "PayPal"
+msgstr ""
+
+#: html/admin/settings/settings_registration.php:426
+#: source/Data/Models/AffiliateModel.php:181
+msgid "Manual"
+msgstr ""
+
+#: html/admin/settings/settings_registration.php:431
+msgid "Affiliate Register Fields"
+msgstr ""
+
+#: html/admin/settings/settings_registration.php:434
+msgid "Add Custom Field"
+msgstr "Kiegészítő mező hozzáadása"
+
+#: html/admin/settings/settings_registration.php:439
+msgid "Enabled"
+msgstr ""
+
+#: html/admin/settings/settings_registration.php:441
+msgid "Field Format"
+msgstr ""
+
+#: html/admin/settings/settings_registration.php:445
+msgid "Required"
+msgstr ""
+
+#: html/admin/settings/settings_registration.php:456
+msgid "Affiliates Homepage Message"
+msgstr ""
+
+#: html/affiliate_approved.php:1
+#, php-format
+msgid ""
+"Your application was approved.  Please go to the <a href=\"%s\">affiliate "
+"control panel</a> to get started."
+msgstr ""
+
+#: html/affiliate_cp_agree_terms.php:3
+msgid "Affiliate Confirmation"
+msgstr ""
+
+#: html/affiliate_cp_agree_terms.php:5
+msgid "Contract Terms"
+msgstr ""
+
+#: html/affiliate_cp_agree_terms.php:12
+msgid "Commission Rate"
+msgstr ""
+
+#: html/affiliate_cp_agree_terms.php:21
+msgid "Terms & Conditions"
+msgstr ""
+
+#: html/affiliate_cp_agree_terms.php:27
+msgid "Agree to Terms"
+msgstr ""
+
+#: html/affiliate_cp_approved.php:3
+msgid "Affiliate Control Panel"
+msgstr ""
+
+#: html/affiliate_cp_approved.php:5
+msgid "Welcome!"
+msgstr ""
+
+#: html/affiliate_cp_approved.php:9
+msgid "Review Terms and Get Started!"
+msgstr ""
+
+#: html/affiliate_cp_home.php:31
+msgid "Account Summary"
+msgstr "Számla összesítő"
+
+#: html/affiliate_cp_home.php:42
+msgid "Are you sure you want to send request for payment"
+msgstr ""
+
+#: html/affiliate_cp_home.php:46
+msgid "Request payment"
+msgstr ""
+
+#: html/affiliate_cp_home.php:50
+msgid "Your balance is less than the minumum payout amount"
+msgstr ""
+
+#: html/affiliate_cp_home.php:73
+msgid "My affilates"
+msgstr "Ügyfeleim"
+
+#: html/affiliate_cp_home.php:118
+msgid "My broker accounts"
+msgstr "Brókerszámláim"
+
+#: html/affiliate_cp_home.php:145
+msgid "Are you sure you want to delete your broker account"
+msgstr "Biztos törölni akarod ezt a brókerszámlát?"
+
+#: html/affiliate_cp_home.php:163
+msgid "Add new borker account"
+msgstr "Brókerszámla hozzáadása"
+
+#: html/affiliate_cp_home.php:166
+msgid "Are you sure you want to add new broker account"
+msgstr "Biztos hozzáadod ezt a brókerszámlát?"
+
+#: html/affiliate_cp_home.php:167
+msgid "Type new broker account name"
+msgstr "Írja be a brókerszámla nevét"
+
+#: html/affiliate_cp_home.php:168
+msgid "Type new broker account id"
+msgstr "Írja be a brókerszámla  azonosítóját"
+
+#: html/affiliate_cp_home.php:169
+msgid "Type new broker account type"
+msgstr "Írja be a brókerszámla típusát"
+
+#: html/affiliate_cp_home.php:170
+msgid "Add"
+msgstr "Hozzáadás"
+
+#: html/affiliate_cp_payment_details_confirmed.php:3
+msgid "Your payment details have been submitted"
+msgstr ""
+
+#: html/affiliate_cp_payment_details_confirmed.php:5
+#, php-format
+msgid ""
+"Now would be a great time to go pick <a href=\"%s\">some creative</a> and "
+"get started."
+msgstr ""
+
+#: html/affiliate_cp_payment_details_form.php:70
+#: html/affiliate_cp_payment_details_simple.php:14
+msgid "Please provide your payment details."
+msgstr ""
+
+#: html/affiliate_cp_payment_details_form.php:71
+#: html/affiliate_cp_payment_details_simple.php:15
+msgid ""
+"The following information will be used to disperse payments when your "
+"account reaches the minimum payout amount."
+msgstr ""
+
+#: html/affiliate_cp_payment_details_form.php:79
+#: html/affiliate_cp_payment_details_simple.php:23 html/contact_info.php:157
+msgid "Method"
+msgstr "Típus"
+
+#: html/affiliate_cp_payment_details_form.php:96
+#: html/affiliate_cp_payment_details_simple.php:40 html/contact_info.php:181
+msgid "PayPal E-Mail Address"
+msgstr ""
+
+#: html/affiliate_cp_payment_details_form.php:109
+#: html/affiliate_cp_payment_details_simple.php:53
+msgid "Paper Check"
+msgstr ""
+
+#: html/affiliate_cp_payment_details_form.php:115
+#: html/affiliate_cp_payment_details_simple.php:59
+msgid "Check Recipient"
+msgstr ""
+
+#: html/affiliate_cp_payment_details_form.php:134
+msgid "Mail to Address On Record"
+msgstr ""
+
+#: html/affiliate_cp_payment_details_form.php:143
+#: html/affiliate_cp_payment_details_form.php:166
+#: html/affiliate_cp_payment_details_simple.php:76
+msgid "Recipient"
+msgstr "Címzett"
+
+#: html/affiliate_cp_payment_details_form.php:170
+msgid "Address 1"
+msgstr "Cím 1"
+
+#: html/affiliate_cp_payment_details_form.php:174
+msgid "Address 2"
+msgstr "Cím 2"
+
+#: html/affiliate_cp_payment_details_form.php:178
+msgid "City"
+msgstr "Város"
+
+#: html/affiliate_cp_payment_details_form.php:182
+msgid "Country"
+msgstr "Ország"
+
+#: html/affiliate_cp_payment_details_form.php:192
+msgid "State"
+msgstr "Megye"
+
+#: html/affiliate_cp_payment_details_form.php:202
+msgid "Postal Code"
+msgstr "Irányítószám"
+
+#: html/affiliate_cp_payment_details_form.php:216
+#: html/affiliate_cp_payment_details_simple.php:99
+msgid "Submit Payment Details"
+msgstr ""
+
+#: html/affiliate_cp_payment_details_simple.php:69
+msgid "Check will be mailed to the following address:"
+msgstr ""
+
+#: html/affiliate_creative_detail.php:47
+msgid "Your Affiliate-Specific HTML snippet"
+msgstr ""
+
+#: html/affiliate_creative_list.php:62
+msgid "Your Affiliate Link Using Affiliate ID"
+msgstr ""
+
+#: html/affiliate_creative_list.php:67
+msgid "The following creatives are available for publication."
+msgstr ""
+
+#: html/affiliate_home.php:1
+msgid "Welcome to the affiliate control panel."
+msgstr ""
+
+#: html/affiliate_not_logged_in.php:5
+#, php-format
+msgid ""
+"This is the affiliates section of this store.  If you are an existing "
+"affiliate, please <a href=\"%s\">log in</a> to access your control panel."
+msgstr ""
+"Ha már regisztrált ügyfelünk kerjük <a href=\"%s\">jelentkezzen be</a>."
+
+#: html/affiliate_not_logged_in.php:8
+#, php-format
+msgid ""
+"If you are not an affiliate, but wish to become one, you will need to "
+"apply.  To apply, you must be a registered user on this blog.  If you have "
+"an existing account on this blog, please <a href=\"%s\">log in</a>.  If not, "
+"please <a href=\"%s\">register</a>."
+msgstr ""
+"Ha még nem ügyfelünk, akkor it tud regiszrálni  <a href=\"%s\"> it tud "
+"regiszrálni</a>. <br>\n"
+"Ha már ügyfelünk, akkor itt tud bejelentkezni <a href=\"%s\"> itt tud "
+"bejelentkezni </a>."
+
+#: html/affiliate_not_registered.php:1
+#, php-format
+msgid ""
+"This is the affiliates section of this store. You are not currently an "
+"affiliate of this store.  If you wish to become one, please <a href=\"%s\"/"
+">apply</a>."
+msgstr ""
+"Ez itt az ügyfél oldal. Ön jelenleg még nem az ügyfelünk. Ha szeretne az "
+"lenni akkor <a href=\"%s\"/>itt regiszrálhat.</a>"
+
+#: html/affiliate_register_form.php:46
+msgid ""
+"Looks like you already have an affiliate account. So you don't need to "
+"register again. Simply go to the affiliate portal and start referring users."
+msgstr ""
+
+#: html/affiliate_register_form.php:57 html/contact_info.php:234
+msgid "* Required fields"
+msgstr "* Kötelező mezők"
+
+#: html/affiliate_register_form.php:77
+msgid ""
+"This is the email address associated with your currently logged in WordPress "
+"user account."
+msgstr ""
+"Ez az email cím a jelenleg bejelentkezett WordPress felhasználójának az "
+"email címe."
+
+#: html/affiliate_register_form.php:78
+msgid ""
+"If you want to use a different email address, log out of your WordPress "
+"account then try a new registration."
+msgstr ""
+"Ha más email címet szeretne használni akkor jelentkezzen ki a WordPress-ből, "
+"és regisztráljon itt egy új email címmel."
+
+#: html/affiliate_register_form.php:120
+msgid "I have read and agree to the"
+msgstr "Elolvastam és elfogadom a "
+
+#: html/affiliate_register_form.php:120
+msgid "Terms and Conditions"
+msgstr "Felhasználási feltételeket"
+
+#: html/affiliate_register_form.php:121
+msgid "You must agree to the terms."
+msgstr ""
+
+#: html/affiliate_register_form.php:137
+msgid "Submit Application"
+msgstr "Regisztráció"
+
+#: html/contact_info.php:13
+msgid "Contact Information"
+msgstr "Személyes adatok"
+
+#: html/contact_info.php:58
+msgid "User type"
+msgstr "Felhasználó típusa"
+
+#: html/contact_info.php:60
+msgid "Partner"
+msgstr "Partner"
+
+#: html/contact_info.php:122
+#, php-format
+msgid ""
+"There is a pending change of your e-mail to <code>%1$s</code>. <a href=\"%2$s"
+"\">Cancel</a>"
+msgstr ""
+
+#: html/contact_info.php:130
+msgid "New Password"
+msgstr "Új jelszó"
+
+#: html/contact_info.php:139
+msgid "Repeat New Password"
+msgstr "Új jelszó még egyszer"
+
+#: html/contact_info.php:190
+msgid "Bounty Type *"
+msgstr ""
+
+#: html/contact_info.php:196
+msgid "Fixed Amount per Sale"
+msgstr ""
+
+#: html/contact_info.php:207
+#, php-format
+msgid "Bounty Rate (%s per Sale) *"
+msgstr ""
+
+#: html/contact_info.php:207
+#, php-format
+msgid "Bounty Rate (% of Sale) *"
+msgstr ""
+
+#: html/contact_info.php:236
+msgid "+ Custom fields"
+msgstr "+kiegészítő mezők"
+
+#: html/contact_info.php:240
+msgid "Save Changes"
+msgstr "Módosítások mentése"
+
+#: html/impressions_table.php:1
+#, php-format
+msgid "Displaying %1$d of %2$d impressions"
+msgstr ""
+
+#: html/impressions_table.php:9
+msgid "Referrer"
+msgstr ""
+
+#: html/impressions_table.php:31 html/transaction_table.php:77
+msgid "No records found for the date range selected."
+msgstr ""
+
+#: html/transaction_table.php:29
+msgid "From"
+msgstr "Tól"
+
+#: html/transaction_table.php:49 html/transaction_table.php:64
+msgid "Reference ID"
+msgstr "Hivatkozás ID\t"
+
+#: source/Admin-menu/wpam-addons-menu.php:6
+msgid "Affiliates Manager Add-ons"
+msgstr ""
+
+#: source/Admin-menu/wpam-clicks-menu.php:8
+msgid "Click Tracking"
+msgstr ""
+
+#: source/Admin-menu/wpam-clicks-menu.php:11
+msgid "Unique Click Tracking"
+msgstr ""
+
+#: source/Admin-menu/wpam-clicks-menu.php:34
+msgid "This tab shows unique referrals to your website from your affiliates"
+msgstr ""
+
+#: source/Admin-menu/wpam-commission-menu.php:8
+msgid "Affiliate Commissions"
+msgstr ""
+
+#: source/Admin-menu/wpam-commission-menu.php:11
+msgid "Overall Commissions"
+msgstr ""
+
+#: source/Admin-menu/wpam-commission-menu.php:12
+msgid "Manual Commission"
+msgstr ""
+
+#: source/Admin-menu/wpam-commission-menu.php:48
+msgid "This tab shows all affiliate commission data"
+msgstr ""
+
+#: source/Admin-menu/wpam-commission-menu.php:104
+msgid "You need to enter an affiliate ID"
+msgstr ""
+
+#: source/Admin-menu/wpam-commission-menu.php:108
+msgid "You need to enter a numeric commission amount"
+msgstr ""
+
+#: source/Admin-menu/wpam-commission-menu.php:112
+msgid "You need to enter a numeric purchase amount"
+msgstr ""
+
+#: source/Admin-menu/wpam-commission-menu.php:139
+msgid "A commission with this transaction ID already exists"
+msgstr ""
+
+#: source/Admin-menu/wpam-commission-menu.php:157
+msgid "Commission added!"
+msgstr ""
+
+#: source/Admin-menu/wpam-commission-menu.php:167
+msgid "This tab allows you to manually award commission to an affiliate."
+msgstr ""
+
+#: source/Admin-menu/wpam-commission-menu.php:177
+msgid "Enter the affiliate ID. Example: "
+msgstr ""
+
+#: source/Admin-menu/wpam-commission-menu.php:181
+msgid "Commission Amount"
+msgstr ""
+
+#: source/Admin-menu/wpam-commission-menu.php:183
+msgid "Enter the commission amount. Example: "
+msgstr ""
+
+#: source/Admin-menu/wpam-commission-menu.php:187
+msgid "Purchase Amount"
+msgstr ""
+
+#: source/Admin-menu/wpam-commission-menu.php:189
+msgid "Enter the purchase amount. Example: "
+msgstr ""
+
+#: source/Admin-menu/wpam-commission-menu.php:195
+msgid ""
+"Enter the unique transaction ID (leave empty to generate a unique ID). "
+"Example: "
+msgstr ""
+
+#: source/Admin-menu/wpam-commission-menu.php:201
+msgid "Enter the email address of the buyer (optional)."
+msgstr ""
+
+#: source/Admin-menu/wpam-commission-menu.php:207
+msgid "Enter the date in yyyy-mm-dd format. Example: "
+msgstr ""
+
+#: source/Data/GenericRepository.php:31 source/Data/GenericRepository.php:76
+#, php-format
+msgid "'model' must be of type '%s'"
+msgstr ""
+
+#: source/Data/Models/AffiliateModel.php:172
+msgid "Percent"
+msgstr ""
+
+#: source/Data/Models/AffiliateModel.php:174
+msgid "Fixed"
+msgstr ""
+
+#: source/Data/Models/ModelMapper.php:34
+#, php-format
+msgid "Model mapping error.  Could not map key %s."
+msgstr ""
+
+#: source/MessageHelper.php:29
+#, php-format
+msgid "Attempt to load invalid message of name '%s'"
+msgstr ""
+
+#: source/Options.php:27
+msgid "Invalid PayPal API value"
+msgstr ""
+
+#: source/Pages/Admin/MyAffiliatesPage.php:167
+#: source/Pages/Admin/MyPartnersPage.php:164
+#: source/Pages/Admin/NewAffiliatePage.php:91
+#: source/Pages/AffiliatesHome.php:619
+#, php-format
+msgid "Bounty Rate (%s per Sale)"
+msgstr ""
+
+#: source/Pages/Admin/MyCreativesPage.php:60
+msgid "All"
+msgstr ""
+
+#: source/Pages/Admin/MyCreativesPage.php:111
+#: source/Pages/Admin/MyCreativesPage.php:264
+#: source/Pages/Admin/MyCreativesPage.php:271
+#: source/Pages/AffiliatesHome.php:189 source/Util/JsonHandler.php:228
+msgid "Invalid creative."
+msgstr ""
+
+#: source/Pages/Admin/MyCreativesPage.php:160
+#, php-format
+msgid "Image Upload Error: %s"
+msgstr ""
+
+#: source/Pages/Admin/MyCreativesPage.php:225
+msgid "Insert failed: Bad creative type."
+msgstr ""
+
+#: source/Pages/Admin/MyCreativesPage.php:234
+msgid "Creative Updated."
+msgstr ""
+
+#: source/Pages/Admin/MyCreativesPage.php:241
+msgid "Creative ... created."
+msgstr ""
+
+#: source/Pages/Admin/MyCreativesPage.php:245
+msgid "Insert failed: invalid creative update mechanism."
+msgstr ""
+
+#: source/Pages/Admin/NewAffiliatePage.php:80
+msgid "Add Affiliate"
+msgstr "Felhasználó hozzáadása"
+
+#: source/Pages/Admin/PaypalPaymentsPage.php:58
+msgid "This results file does not appear to match this payment."
+msgstr ""
+
+#: source/Pages/Admin/PaypalPaymentsPage.php:92
+#, php-format
+msgid ""
+"Matched a transaction in your results file, but the value was incorrect. "
+"Expected %s but found '%s'"
+msgstr ""
+
+#: source/Pages/Admin/PaypalPaymentsPage.php:100
+msgid ""
+"Could not correlate a transaction from your results file with the "
+"transactions on record."
+msgstr ""
+
+#: source/Pages/Admin/PaypalPaymentsPage.php:106
+msgid "Could not correlate all transactions"
+msgstr ""
+
+#: source/Pages/Admin/PaypalPaymentsPage.php:150
+msgid "Invalid PayPal LogID"
+msgstr ""
+
+#: source/Pages/Admin/PaypalPaymentsPage.php:156
+msgid "Transaction not found"
+msgstr ""
+
+#: source/Pages/Admin/PaypalPaymentsPage.php:167
+msgid "Invalid transaction status"
+msgstr ""
+
+#: source/Pages/Admin/PaypalPaymentsPage.php:225
+msgid "Affiliate Payment"
+msgstr ""
+
+#: source/Pages/Admin/PaypalPaymentsPage.php:237
+msgid "Affiliate not found"
+msgstr ""
+
+#: source/Pages/Admin/PaypalPaymentsPage.php:240
+msgid "Payment method for affiliate is not PayPal"
+msgstr ""
+
+#: source/Pages/Admin/PaypalPaymentsPage.php:247
+msgid "Payout via PayPal Mass Pay"
+msgstr ""
+
+#: source/Pages/AffiliatesHome.php:40
+msgid "Payment History"
+msgstr "Számlatörténet"
+
+#: source/Pages/AffiliatesHome.php:42
+msgid "Edit Profile"
+msgstr "Profil módosítása"
+
+#: source/Pages/AffiliatesHome.php:43 source/Plugin.php:280
+msgid "Log out"
+msgstr "Kijelentkezés"
+
+#: source/Pages/AffiliatesHome.php:191 source/Util/JsonHandler.php:28
+#: source/Util/JsonHandler.php:52 source/Util/JsonHandler.php:83
+#: source/Util/JsonHandler.php:109 source/Util/JsonHandler.php:133
+#: source/Util/JsonHandler.php:207
+msgid "Invalid affiliate"
+msgstr ""
+
+#: source/Pages/AffiliatesHome.php:193
+msgid "Inactive creative."
+msgstr ""
+
+#: source/Pages/AffiliatesHome.php:394
+msgid ": Password may not contain slashes."
+msgstr ""
+
+#: source/Pages/AffiliatesHome.php:399
+msgid ": Please enter the same password in both password fields."
+msgstr ""
+
+#: source/Pages/AffiliatesHome.php:476
+#, php-format
+msgid "%s per sale."
+msgstr ""
+
+#: source/Pages/AffiliatesHome.php:478
+#, php-format
+msgid "%s%% of each completed sale, pre-tax"
+msgstr ""
+
+#: source/Pages/AffiliatesRegister.php:64 source/Util/UserHandler.php:143
+msgid ""
+"Error submitting your details to the database. This is a bug, and your "
+"application was not submitted."
+msgstr ""
+
+#: source/Pages/AffiliatesRegister.php:72 source/Util/UserHandler.php:152
+#, php-format
+msgid "New affiliate registration on your site %s:"
+msgstr ""
+
+#: source/Pages/AffiliatesRegister.php:73 source/Util/UserHandler.php:153
+#, php-format
+msgid "Name: %s %s"
+msgstr ""
+
+#: source/Pages/AffiliatesRegister.php:74 source/Util/UserHandler.php:154
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#: source/Pages/AffiliatesRegister.php:75 source/Util/UserHandler.php:155
+#, php-format
+msgid "Company: %s"
+msgstr ""
+
+#: source/Pages/AffiliatesRegister.php:76 source/Util/UserHandler.php:156
+#, php-format
+msgid "Website: %s"
+msgstr ""
+
+#: source/Pages/AffiliatesRegister.php:77 source/Util/UserHandler.php:157
+#, php-format
+msgid "View Application: %s"
+msgstr ""
+
+#: source/Pages/AffiliatesRegister.php:78 source/Util/UserHandler.php:158
+msgid "New Affiliate Registration"
+msgstr ""
+
+#: source/Pages/AffiliatesRegister.php:81
+#, php-format
+msgid "Affiliate application for %s"
+msgstr ""
+
+#: source/Pages/PublicPage.php:95 source/Util/JsonHandler.php:14
+#: source/Util/JsonHandler.php:44 source/Util/JsonHandler.php:75
+#: source/Util/JsonHandler.php:101 source/Util/JsonHandler.php:125
+#: source/Util/JsonHandler.php:136 source/Util/JsonHandler.php:150
+#: source/Util/JsonHandler.php:196 source/Util/JsonHandler.php:224
+msgid "Access denied."
+msgstr ""
+
+#: source/PayPal/MassPayRequest.php:24
+msgid "receiverType must be one of the RECEIVERTYPE_* constants"
+msgstr ""
+
+#: source/PayPal/MassPayRequest.php:33
+msgid "'amount' must be a valid monetary value"
+msgstr ""
+
+#: source/PayPal/MassPayResultFile.php:113
+#: source/PayPal/MassPayResultFile.php:124
+#, php-format
+msgid "Failed to parse amounts from field: %s"
+msgstr ""
+
+#: source/PayPal/Service.php:77
+#, php-format
+msgid ""
+"POST failed\n"
+"errors:\n"
+"%serrordata:\n"
+"%s"
+msgstr ""
+
+#: source/PayPal/Service.php:82
+#, php-format
+msgid "Unknown response: %s"
+msgstr ""
+
+#: source/Plugin.php:73 source/Plugin.php:575
+msgid "Affiliate Management"
+msgstr ""
+
+#: source/Plugin.php:73 source/Plugin.php:75 source/Plugin.php:556
+#: source/Plugin.php:570 source/Plugin.php:575
+msgid "Affiliates"
+msgstr "Ügyfelek"
+
+#: source/Plugin.php:78
+msgid "New Affiliate or Partner"
+msgstr "Új ügyfél vagy partner"
+
+#: source/Plugin.php:81
+msgid "Partners"
+msgstr "Partnerek"
+
+#: source/Plugin.php:87
+msgid "Store Affiliates"
+msgstr "Ügyfél oldal"
+
+#: source/Plugin.php:88
+msgid "Register"
+msgstr "Regiszráció"
+
+#: source/Plugin.php:89
+msgid "Affiliate Login"
+msgstr "Ügyfél bejelentkezés"
+
+#: source/Plugin.php:276
+msgid "You are currently logged in"
+msgstr "Jelenleg be van jelentkezve"
+
+#: source/Plugin.php:278
+msgid "Username"
+msgstr "Felhasználónév"
+
+#: source/Plugin.php:288
+msgid "Email Address"
+msgstr "Email cím"
+
+#: source/Plugin.php:290
+msgid "Password Lost and Found"
+msgstr "Jelszó emlékeztető"
+
+#: source/Plugin.php:290
+msgid "Lost your password?"
+msgstr "Elfelejtette a jelszavát?"
+
+#: source/Plugin.php:338
+msgid "Become an affiliate"
+msgstr "Legyen ügyfelünk"
+
+#: source/Plugin.php:339
+msgid "Are you interested in earning money by directing visitors to our site?"
+msgstr ""
+
+#: source/Plugin.php:341
+msgid "Sign up"
+msgstr "Regiszráció"
+
+#: source/Plugin.php:341
+msgid " to become an affiliate today!"
+msgstr ""
+
+#: source/Plugin.php:570
+msgid "Be An Affiliate"
+msgstr ""
+
+#: source/Plugin.php:606
+msgid "Settings"
+msgstr "Beállítások"
+
+#: source/Plugin.php:743
+msgid "Invalid JSON handler."
+msgstr ""
+
+#: source/Plugin.php:774
+msgid "Nonce check failed for export My Affiliates to CSV!"
+msgstr ""
+
+#: source/Tracking/RequestTracker.php:131
+#: source/Tracking/RequestTracker.php:228
+msgid "no refkey in request."
+msgstr ""
+
+#: source/Tracking/RequestTracker.php:188
+msgid "invalid refkey data."
+msgstr ""
+
+#: source/Tracking/RequestTracker.php:239
+msgid "invalid refkey data: "
+msgstr ""
+
+#: source/Tracking/TrackingKey.php:35
+#, php-format
+msgid "invalid refkey format. (length=%s)"
+msgstr ""
+
+#: source/Util/AffiliateFormHelper.php:93
+msgid "is a blocked e-mail "
+msgstr ""
+
+#: source/Util/AffiliateFormHelper.php:95
+msgid "is in use"
+msgstr "már foglalt"
+
+#: source/Util/AffiliateFormHelper.php:151
+msgid "Money transfer"
+msgstr "Átutalás"
+
+#: source/Util/EmailHandler.php:70
+msgid "Your username and password"
+msgstr ""
+
+#: source/Util/EmailHandler.php:74
+#, php-format
+msgid "[%s] Your username and password for Affiliate Manager"
+msgstr ""
+
+#: source/Util/EmailHandler.php:75 source/Util/UserHandler.php:22
+#: source/Util/UserHandler.php:92
+#, php-format
+msgid "New affiliate registration for %s: has been approved!"
+msgstr ""
+
+#: source/Util/JsonHandler.php:17
+msgid "Invalid bounty amount."
+msgstr ""
+
+#: source/Util/JsonHandler.php:20
+msgid "Invalid bounty type."
+msgstr ""
+
+#: source/Util/JsonHandler.php:36 source/Util/JsonHandler.php:68
+#: source/Util/JsonHandler.php:93 source/Util/JsonHandler.php:112
+#: source/Util/JsonHandler.php:169
+msgid "Invalid state transition."
+msgstr ""
+
+#: source/Util/JsonHandler.php:60 source/Util/UserHandler.php:74
+#: source/Util/UserHandler.php:162
+#, php-format
+msgid "Affiliate Application for %s"
+msgstr ""
+
+#: source/Util/JsonHandler.php:153
+msgid "Invalid status."
+msgstr ""
+
+#: source/Util/JsonHandler.php:166
+msgid "Invalid creative"
+msgstr ""
+
+#: source/Util/JsonHandler.php:199
+msgid "Invalid transaction type."
+msgstr ""
+
+#: source/Util/JsonHandler.php:202
+msgid "Invalid value for amount."
+msgstr ""
+
+#: source/Util/UserHandler.php:27 source/Util/UserHandler.php:36
+#: source/Util/UserHandler.php:97 source/Util/UserHandler.php:106
+msgid "User already has an account and is already an affiliate"
+msgstr ""
+
+#: source/Util/UserHandler.php:30 source/Util/UserHandler.php:39
+#: source/Util/UserHandler.php:100 source/Util/UserHandler.php:109
+msgid "Log into the site with your existing account and get started."
+msgstr ""
+
+#: source/Validation/CallbackValidator.php:17
+msgid "Argument 'callback' must be callable"
+msgstr ""
+
+#: source/Validation/CountryCodeValidator.php:15
+#: source/Validation/StringValidator.php:29
+msgid "is required"
+msgstr ""
+
+#: source/Validation/EmailValidator.php:14
+msgid "must be a valid e-mail address"
+msgstr "igazi email címnek kell lennie"
+
+#: source/Validation/MoneyValidator.php:12
+msgid "must be a valid monetary value"
+msgstr ""
+
+#: source/Validation/MultiPartPhoneNumberValidator.php:12
+msgid "must be a valid phone number"
+msgstr "igazi telefonszámnak kell lennie"
+
+#: source/Validation/MultiPartSocialSecurityNumberValidator.php:13
+msgid "must be a valid social security number"
+msgstr ""
+
+#: source/Validation/NumberValidator.php:14
+msgid "must be a number"
+msgstr "igazi számnak kell lennie"
+
+#: source/Validation/PhoneNumberValidator.php:12
+msgid "must be a phone number"
+msgstr "igazi telefonszámnak kell lennie"
+
+#: source/Validation/SetValidator.php:18
+#: source/Validation/StateCodeValidator.php:14
+msgid "must be selected"
+msgstr ""
+
+#: source/Validation/StringValidator.php:24
+msgid "must be between % and %s characters"
+msgstr ""
+
+#: source/Validation/StringValidator.php:31
+#, php-format
+msgid "must be at least %s characters"
+msgstr ""
+
+#: source/Validation/StringValidator.php:35
+#, php-format
+msgid "must be no more than %s characters"
+msgstr ""
+
+#: source/Validation/ZipCodeValidator.php:16
+msgid "must be a valid zip code"
+msgstr ""
+
+#: source/display_functions.php:11
+msgid "Affiliate has applied, but is waiting on your decision."
+msgstr ""
+
+#: source/display_functions.php:12
+msgid "Affiliate has been approved, but has not accepted terms."
+msgstr ""
+
+#: source/display_functions.php:13
+msgid "Affiliate is active, and will receive credit for leads."
+msgstr ""
+
+#: source/display_functions.php:14
+msgid ""
+"Affiliate has accepted terms and provided payment details.<br /> If the "
+"details look good, you should activate this affiliate so they can begin "
+"sending traffic."
+msgstr ""
+
+#: source/display_functions.php:15
+msgid "Affiliate has been disabled."
+msgstr ""
+
+#: source/display_functions.php:16
+msgid "Affiliate was declined."
+msgstr ""
+
+#: source/display_functions.php:17
+msgid "Affiliate was blocked and cannot re-apply."
+msgstr ""
+
+#: source/display_functions.php:23
+#, php-format
+msgid "%s per sale"
+msgstr ""
+
+#: source/display_functions.php:25
+#, php-format
+msgid "%s%% of pre-tax sales"
+msgstr ""
+
+#: source/dynamic-translatable-strings.php:4
+msgid "Address Line 1"
+msgstr "Cím 1"
+
+#: source/dynamic-translatable-strings.php:5
+msgid "Address Line 2"
+msgstr "Cím 2"
+
+#: source/dynamic-translatable-strings.php:6
+msgid "Zip Code"
+msgstr "Irányítószám"
+
+#: source/dynamic-translatable-strings.php:7
+msgid "Company Name"
+msgstr "Cégnév"
+
+#: source/dynamic-translatable-strings.php:8
+msgid "Website URL"
+msgstr "Weboldal URL"

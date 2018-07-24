@@ -1,0 +1,6 @@
+[07/23/2018 12:49 PM] - SUCCESS : Affiliate Application for X-BACK
+[07/23/2018 12:49 PM] - SUCCESS : Sending an email to eva.berdi@gmail.com
+[07/23/2018 12:49 PM] - SUCCESS : Email was sent successfully by WordPress
+[07/23/2018 12:49 PM] - SUCCESS : New Affiliate Registration
+[07/23/2018 12:49 PM] - SUCCESS : Sending an email to admin@x-back.hu
+[07/23/2018 12:49 PM] - SUCCESS : Email was sent successfully by WordPress
